@@ -3,7 +3,7 @@ import sys, os
 
 version = '1.0.0'
 
-setup(name='easy_env',
+setup(name='oh-my-env',
       version=version,
       description="",
       long_description="""\
