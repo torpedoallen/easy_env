@@ -14,8 +14,8 @@ else:
 from envparse import shortcut
 from six import with_metaclass
 
-from easy_env.backends import DefaultBackend, AbstractBackend
-from easy_env.utils import decrypt
+from oh_my_env.backends import DefaultBackend, AbstractBackend
+from oh_my_env.utils import decrypt
 
 
 class Env(with_metaclass(abc.ABCMeta, object)):
