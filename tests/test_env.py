@@ -10,7 +10,7 @@ else:
 import pytest
 from envparse import ConfigurationError
 
-from easy_env.base import Env
+from oh_my_env.base import Env
 
 env = Env('hydra')
 
