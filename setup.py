@@ -8,7 +8,6 @@ setup(name='oh-my-env',
       description="",
       long_description="""\
 """,
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='',
       author='torpedoallen',
       author_email='torpedoallen@gmail.com',
