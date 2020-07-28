@@ -3,4 +3,5 @@
 __author__ = 'torpedoallen'
 __email__ = 'torpedoallen@gmail.com'
 
+from .base import Env
 

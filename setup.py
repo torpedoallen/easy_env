@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0.1'
+version = '2.0.0'
 
 setup(name='oh-my-env',
       version=version,
@@ -12,6 +12,13 @@ setup(name='oh-my-env',
       keywords='',
       author='torpedoallen',
       author_email='torpedoallen@gmail.com',
+      classifiers=[
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+      ],
       url='',
       license='',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
@@ -20,9 +27,9 @@ setup(name='oh-my-env',
       install_requires=[
           # -*- Extra requirements: -*-
           'envparse==0.2.0',
-          'simplejson>=3.10.0',
+          'cryptography==3.0.0',
+          'ujson>=3.0.0',
           'six>=1.11.0',
-          'M2Crypto>=0.28.0',
           'pytest<5.0.0',
       ],
       extras_require={

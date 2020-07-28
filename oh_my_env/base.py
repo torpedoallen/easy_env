@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 import six
 import abc
-import json
+import ujson as json
 import os
 
 if six.PY2:
