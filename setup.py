@@ -26,7 +26,7 @@ setup(name='oh-my-env',
       install_requires=[
           # -*- Extra requirements: -*-
           'envparse==0.2.0',
-          'cryptography==3.0.0',
+          'cryptography==3.2',
           'ujson>=3.0.0',
           'six>=1.11.0',
           'pytest<5.0.0',
